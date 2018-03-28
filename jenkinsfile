@@ -17,4 +17,7 @@ node {
          sh 'mvn test package'
       }
    }
+stage('deploy to dev') {
+echo 'deploy to dev'
+    }
 }
