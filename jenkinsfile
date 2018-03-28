@@ -19,5 +19,5 @@ node {
    }
 stage('deploy to dev') {
 echo 'deploy to dev'
-    }
+   }
 }
